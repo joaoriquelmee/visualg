@@ -1,0 +1,11 @@
+
+                                                              X
+matriz[3,1]                                                 X 
+matriz[2,2] Matrizes para fazer um traço diagonal subindo X
+matriz[1,3]
+
+
+matriz[1,1]
+matriz[2,2] Matriz para fazer um traço diagonal descendo X
+matriz[3,3]                                                X
+							     X

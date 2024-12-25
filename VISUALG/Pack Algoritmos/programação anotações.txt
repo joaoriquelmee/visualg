@@ -1,0 +1,48 @@
+0 = FALSO  1 = VERDADEIRO
+
+Os números da programação são chamados de bits ou digito binário
+
+8 bits equivalem a 1 BYTE
+
+// Para fazer comentários no código.
+
+A linguagem Pawn é Case Sensitive ou seja diferencia letras maiúsculas de minúsculas
+Publics ou Callbacks são eventos que acontecem, por exemplo > public OnPlayerConnect(playerid) é uma public de eventos que irão acontecer quando o player conectar ao Servidor.
+A contagem no Pawn começa em 0.
+---------------------------------------
+Condicional:  If <> {} else {} 
+---------------------------------------
+If = Se
+else = Senão
+-----------------------------------------------------
+cntrl G = Achar linha específica no VSCode
+cntrl F = Pesquisar palavra específica no VSCode
+F5 key atalho para compilar no VSCode
+------------------------------------------------------
+Para o servidor ligar e funcionar
+------------------------------------------------------
+Precisa setar no server config o Gamemode0 > Nome do Arquivo do GameMode
+Precisa ter dois arquivos salvos na pasta gamemode, um em AMX e outro em PWN
+
+----------------------------------------------------------------------------------
+                        VARIÁVEL 
+----------------------------------------------------------------------------------
+Uma variável que está fora de uma public/callback é uma variável global, se estiver dentro
+de alguma callback é porque é uma variável local, e só pode ser usada dentro dos parênteses.
+Se criar uma variável e não setar o valor, o valor será 0.
+
+Para usar uma variável já criada é só colocar o nome dela dentro do parêntese.
+Para declarar que o valor de uma variável é um número inteiro ("%d", nomedavariavel);
+Para declarar que o valor é decimal ("%f", nomedavariavel);
+Para declarar que o valor é string ("%s", nomedavariavel);
+
+                                                         variaveldez = 10;
+Para somar valor de uma variável com outro valor por ex: variaveldez += 5;   o total será = 15
+
+Declarando variável de número inteiro: new variavelum = 155;
+Declarando variável de número não-inteiro (decimal): new Float:variavel = 155.5;
+Declarando variável de string (variável de texto)(valor tem que ser maior que o texto): new nomedavariavel [valor] = "Texto";
+------------------------------------------------------------------------------------------------------------------------------
+                     PUBLICS OU CALLBACK's
+-------------------------------------------------------------------------------------------------------------------------------
+Publics ou Callbacks são eventos que acontecem, por exemplo > public OnPlayerConnect(playerid) é uma public de eventos que irão acontecer quando o player conectar ao Servidor.

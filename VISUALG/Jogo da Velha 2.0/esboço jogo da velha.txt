@@ -1,0 +1,16 @@
+
+Nome Player 1 V
+Verificador de vitória Player 1 V
++1 no placar V
+
+Nome Player 2 V 
+Verificador de vitória Player 2 V
++ 1 no placar V
+
+Verificador de EMPATE V
+
+Placar Total com nome dos players V
+
+Quer jogar novamente? [S/N]  V
+
+

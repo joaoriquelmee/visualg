@@ -1,0 +1,32 @@
+				FUNÇÕES
+
+Assim como Procedimentos as funções também são rotinas, só que elas tem uma GRANDE DIFERENÇA, elas podem retornar RESULTADOS! 
+
+(Porém são a mesma coisa, veja a EXPLICAÇÃO de PROCEDIMENTOS para entender as funções.
+
+Ou seja a grande vantagem da FUNÇÃO é que ela pode retornar um resultado que você ira poder MANIPULAR da maneira que quiser dentro do código.
+
+Uma função sempre tem um RETORNO.
+
+Se tiver Dúvidas (Leia a explicação de funcionamento dos Procedimentos e depois leia a explicação de Funções no bloco de notas e Discord.)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como criar uma Função?
+
+Exemplo de como declarar uma Função:
+
+Funcao Soma(A, B: Inteiro) : Inteiro   // Esse inteiro a mais se refere ao tipo do valor de Retorno que essa função dará. 
+var				      //  Poderia também ser: caractere ou real.
+  S: Inteiro             //(Declaração da Variável que irá retornar o valor da soma) 
+Inicio
+   S <- A + B
+   Retorne S         //O valor da Soma A+B feita dentro do procedimento passará a ser armazenado em "S" que será  retornada ao algoritmo principal.
+FimFuncao
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Passagem de Valor por REFERÊNCIA
+
+Funcao Soma(var A, B: Inteiro) : Inteiro  // Mesma coisa de Procedimentos, se tiver um "VAR" na frente dos parâmetros da FUNÇÃO é porque a passagem será feita por REFERÊNCIA. 
+
+(Passagem por REFERÊNCIA é quando os valores continuam alterados no código principal.)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

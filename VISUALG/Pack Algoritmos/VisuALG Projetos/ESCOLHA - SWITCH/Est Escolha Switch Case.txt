@@ -1,0 +1,24 @@
+Escolha (variável)
+
+Caso valor
+   Algoritmo A
+Caso valor
+   Algoritmo B
+Caso valor
+   Algoritmo C
+Outro caso
+   Bloco D
+FimEscolha
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Switch (Escolha) É uma forma de reduzir a complexidade de vários if … else encadeados. É muito utilizado, principalmente para uso em estruturas de menu.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Estrutura Escolha é para não ter que ficar criando varias condicionais aninhadas "Se" porém ela não pode determinar condições por exemplo Se X <= 10
+E só serve basicamente para valores inteiros ( Pelo menos no visualg) 
+Algumas linguagens aceitam para valores caracteres (string)
+Escolha = Switch nas linguagens de programação oficiais
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Se tiver mais dúvidas olhar os exercícios no visualg e o chat do visualg no discord.
+
+

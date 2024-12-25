@@ -1,0 +1,21 @@
+ESTRUTURA ENQUANTO - (WHILE)
+----------------------------------------------------
+algoritmo "ContadorExemplo"
+var mao, numeroalvo: inteiro
+
+inicio
+      Escreva ("Quer contar até que número? :")
+      Leia (numeroalvo)
+      mao <- 0                                    //Mão = contador da operação, começa em 0 pq a contagem será crescente do 0 até o numero alvo, se fosse decrescente, mao receberia o valor do maior número: mao <- maior número
+      Enquanto (mao <= numeroalvo) faca          //Enquanto mao for maior que o numero alvo, irá ser executado oq está abaixo do Enquanto, até o contador passar do número alvo e parar
+      Escreva (mao)                             //Repetir o valor para sair o N1 sem a Soma/Subtração, ATENÇÃO: Deve estar sempre acima da soma de mão + 1
+      mao <- mao + 1                           //Mao (contador) recebe o valor de mao + 1 (no caso se o salto da soma for de 1 em 1 número) (Também poderia ser -1 caso fosse subtração)
+FimEnquanto                                   //Final do Looping, irá reproduzir imediatamente tudo que estiver abaixo.
+      Escreval (" Terminei de contar")       // Reproduzido após o final do Looping
+fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------
+Ao final da operação O contador (mão) sempre vai estar 1 a mais ou 1 a menos do número ALVO pois esse é o gatilho
+para que a contagem pare.
+
+Caso queira escrever algo atente-se, se é correto escrever dentro do Looping (Enquanto) ou fora (logo abaixo do FimEnquanto).
+---------------------------------------------------------------------------------------------------------------------------------

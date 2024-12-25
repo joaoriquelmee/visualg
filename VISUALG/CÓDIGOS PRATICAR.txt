@@ -1,0 +1,22 @@
+Fazer pelo menos um código por dia de cada tema por exemplo:
+
+1 código de Estruturas condicionais (Se, e, ou, Entao, SeNao) (If, if else)
+
+1 código de Condicionais Aninhadas (Se, entao, ou, senao, Se, entao, senao, )
+
+1 código de Estruturas condicionais (Escolha, caso, caso, outro caso, FimEscolha) (Switch)
+
+1 código de Estruturas de Looping (Enquanto, faca, FimEnquanto) (While)
+
+1 Código de Estruturas de Looping (Repita, Ate) (Do/While)
+
+1 Código de Estruturas de Looping (Para, Ate, Faca, FimPara) (For)
+
+1 código de Procedimentos (por parâmetro e por referência)
+
+1 Código de Funções (Functions)
+
+1 Código de Vetores (Arrays)
+
+1 Código de Matrizes (Arrays MultiDimensionais)
+
